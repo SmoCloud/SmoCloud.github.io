@@ -1,0 +1,37 @@
+{
+  "name": "video-player",
+  "type": "module",
+  "version": "1.1.0",
+  "description": "Capstone Project",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmoCloud/video-player.git"
+  },
+  "author": "Logan,Zach,Mikel Cox,Hunter,Ashton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmoCloud/video-player/issues"
+  },
+  "homepage": "https://github.com/SmoCloud/video-player#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "date-fns": "^4.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "formidable": "^3.5.2",
+    "mysql2": "^3.12.0",
+    "uuid": "^11.0.2",
+    "video.js": "^8.19.1"
+  }
+}

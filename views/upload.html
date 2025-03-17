@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="imgs/basicLogo.jpeg">
+        <a href="index.html">Home</a>
+        <a href="upload.html">Upload</a>
+    </div>
+    <div class="searchbar">
+        <input type="text" id="videoTitle" style="width: 60%;">
+        <button id="searchButton" style="border-radius: 5px;">Search</button>
+    </div>
+    <div class="uploading">
+        <form id="upload-form" method="post">
+            Select video to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="file" name="thumbnail" id="thumbnail">
+            <input type="text" placeholder="Title of your video" name="v_title" id="v_title">
+            <input type="text" placeholder="Description of your video" name="v_description" id="v_description">
+            <button type="submit" value="Upload Video" name="submit" id="submit-form">Upload Video</button>
+        </form>
+    </div>
+    <script src="scripts/upload.js"></script>
+</body>
+</html>
