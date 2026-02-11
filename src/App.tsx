@@ -1,4 +1,4 @@
-import portrait from './assets/Outstanding.jpeg';
+import portrait from '/assets/Outstanding.jpeg';
 import './App.css';
 
 function App() {
