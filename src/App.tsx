@@ -1,35 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import portrait from './assets/Outstanding.jpeg';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <h1>Hello, World <br />Welcome to my Portfolio!</h1>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://github.com/SmoCloud?tab=repositories" target="_blank">
+          <img src={portrait} className="logo" alt="Portrait of Mikel Cox" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h3>Mikel Cox<br />Aspiring Software Developer</h3>
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+          <p>
+            My name is Mikel Cox, and I am an aspiring software developer with a passion for creating innovative solutions. 
+            I have a strong foundation in programming languages such as C, C++, JavaScript, Python, Go, and Java.
+            I am constantly seeking opportunities to expand my skill set. 
+            I am eager to contribute my creativity and problem-solving abilities to a dynamic team, 
+            where I can continue to grow and make a meaningful impact in the world of technology.
+          </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on my portrait to view my GitHub repositories
       </p>
     </>
   )
-}
+};
 
-export default App
+export default App;
