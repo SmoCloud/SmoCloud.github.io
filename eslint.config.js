@@ -8,7 +8,7 @@ import reactX from 'eslint-plugin-react-x';
 import reactDom from 'eslint-plugin-react-dom';
 
 export default defineConfig([
-  globalIgnores(['dist']),
+  globalIgnores(['build']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
